@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Calculator.Controller.MainController">
+   <AnchorPane prefHeight="415.0" prefWidth="359.0" style="-fx-background-color: #0a1321;">
+      <children>
+         <TextField fx:id="display" layoutX="40.0" layoutY="35.0" prefHeight="73.0" prefWidth="279.0" />
+         <Button fx:id="one" layoutX="66.0" layoutY="303.0" mnemonicParsing="false" onAction="#OneButtonClick" prefHeight="36.0" prefWidth="43.0" text="1" />
+         <Button fx:id="two" layoutX="118.0" layoutY="303.0" mnemonicParsing="false" onAction="#TwoButtonClick" prefHeight="36.0" prefWidth="43.0" text="2" />
+         <Button fx:id="three" layoutX="171.0" layoutY="303.0" mnemonicParsing="false" onAction="#ThreeButtonClick" prefHeight="36.0" prefWidth="43.0" text="3" />
+         <Button fx:id="plus" layoutX="232.0" layoutY="303.0" mnemonicParsing="false" onAction="#PlusButtonClick" prefHeight="36.0" prefWidth="74.0" text="+" />
+         <Button fx:id="four" layoutX="66.0" layoutY="257.0" mnemonicParsing="false" onAction="#FourButtonClick" prefHeight="36.0" prefWidth="43.0" text="4" />
+         <Button fx:id="five" layoutX="118.0" layoutY="257.0" mnemonicParsing="false" onAction="#FiveButtonClick" prefHeight="36.0" prefWidth="43.0" text="5" />
+         <Button fx:id="six" layoutX="171.0" layoutY="257.0" mnemonicParsing="false" onAction="#SixButtonClick" prefHeight="36.0" prefWidth="43.0" text="6" />
+         <Button fx:id="minus" layoutX="232.0" layoutY="257.0" mnemonicParsing="false" onAction="#MinusButtonClick" prefHeight="36.0" prefWidth="74.0" text="-" />
+         <Button fx:id="seven" layoutX="66.0" layoutY="208.0" mnemonicParsing="false" onAction="#SevenButtonClick" prefHeight="36.0" prefWidth="43.0" text="7" />
+         <Button fx:id="eight" layoutX="118.0" layoutY="208.0" mnemonicParsing="false" onAction="#EightButtonClick" prefHeight="36.0" prefWidth="43.0" text="8" />
+         <Button fx:id="nine" layoutX="171.0" layoutY="208.0" mnemonicParsing="false" onAction="#NineButtonClick" prefHeight="36.0" prefWidth="43.0" text="9" />
+         <Button fx:id="multiplication" layoutX="232.0" layoutY="208.0" mnemonicParsing="false" onAction="#MltiplicationButtonClick" prefHeight="36.0" prefWidth="74.0" text="*" />
+         <Button fx:id="division" layoutX="232.0" layoutY="162.0" mnemonicParsing="false" onAction="#DivisionButtonClick" prefHeight="36.0" prefWidth="74.0" text="/" />
+         <Button fx:id="zero" layoutX="118.0" layoutY="349.0" mnemonicParsing="false" onAction="#ZeroButtonClick" prefHeight="36.0" prefWidth="43.0" text="0" />
+         <Button fx:id="res" layoutX="232.0" layoutY="349.0" mnemonicParsing="false" onAction="#ResButtonClick" prefHeight="36.0" prefWidth="74.0" text="=" />
+         <Button fx:id="clean" layoutX="232.0" layoutY="116.0" mnemonicParsing="false" onAction="#CleanButtonClick" prefHeight="36.0" prefWidth="74.0" style="-fx-background-color: #fac916;" text="Clean" />
+      </children>
+   </AnchorPane>
+</StackPane>
