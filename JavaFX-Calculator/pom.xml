@@ -4,30 +4,30 @@
   <artifactId>JavaFX-Calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-    <!-- JavaFX dependencies -->
+   
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-controls</artifactId>
-        <version>17</version>  <!-- Укажите нужную версию JavaFX -->
+        <version>17</version>  
     </dependency>
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-fxml</artifactId>
-        <version>17</version>  <!-- Укажите нужную версию JavaFX -->
+        <version>17</version>  
     </dependency>
 </dependencies>
 
 <build>
     <plugins>
-        <!-- Плагин для Maven, чтобы упаковать проект с JavaFX -->
+        
         <plugin>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-maven-plugin</artifactId>
-            <version>0.0.6</version> <!-- Укажите актуальную версию плагина -->
+            <version>0.0.6</version> 
             <executions>
                 <execution>
                     <goals>
-                        <goal>run</goal> <!-- Включаем возможность запускать приложение -->
+                        <goal>run</goal> 
                     </goals>
                 </execution>
             </executions>
